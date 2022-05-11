@@ -1,0 +1,1050 @@
+[
+    {
+        "Animal": "Grizzly Bear",
+        "Biome": "Boreal Forest",
+        "Status": "Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Polar Bear",
+        "Biome": "Tundra",
+        "Status": "Low Risk",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Arctic"
+    },
+    {
+        "Animal": "American Beaver",
+        "Biome": "Wetlands",
+        "Status": "Vulnerable",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Dromedary Camel",
+        "Biome": "Desert",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Cheetah",
+        "Biome": "Savannah",
+        "Status": "Vulnerable",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Chimpanzee",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Nile Crocodile",
+        "Biome": "Wetlands",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "African Elephant",
+        "Biome": "Savannah",
+        "Status": "Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Greater Flamingo",
+        "Biome": "Wetlands",
+        "Status": "Low Risk",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Thomsons Gazelle",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "East Africa"
+    },
+    {
+        "Animal": "Gemsbok",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Southern Africa"
+    },
+    {
+        "Animal": "Reticulated Giraffe",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "East Africa"
+    },
+    {
+        "Animal": "Mountain Gorilla",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Hippopotamus",
+        "Biome": "Wetlands",
+        "Status": "Vulnerable",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Ibex",
+        "Biome": "Alpine",
+        "Status": "Vulnerable",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "European Alps"
+    },
+    {
+        "Animal": "Jaguar",
+        "Biome": "Tropical Rainforest",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "South America"
+    },
+    {
+        "Animal": "Red Kangaroo",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Australia"
+    },
+    {
+        "Animal": "Ring-Tailed Lemur",
+        "Biome": "Tropical Rainforest",
+        "Status": "Vulnerable",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Madagascar"
+    },
+    {
+        "Animal": "Snow Leopard",
+        "Biome": "Alpine",
+        "Status": "Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Asia"
+    },
+    {
+        "Animal": "Lion",
+        "Biome": "Savannah",
+        "Status": "Vulnerable",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Moose",
+        "Biome": "Boreal Forest",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Okapi",
+        "Biome": "Tropical Rainforest",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Ostrich",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Giant Panda",
+        "Biome": "Temperate Forest",
+        "Status": "Endangered",
+        "Star Rating": 5,
+        "Cost": "$50,000",
+        "Location": "China"
+    },
+    {
+        "Animal": "Red Panda",
+        "Biome": "Temperate Forest",
+        "Status": "Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "China"
+    },
+    {
+        "Animal": "Common Peafowl",
+        "Biome": "Temperate Forest",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Asia"
+    },
+    {
+        "Animal": "Emperor Penguin",
+        "Biome": "Tundra",
+        "Status": "Low Risk",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Antarctica"
+    },
+    {
+        "Animal": "Black Rhinoceros",
+        "Biome": "Savannah",
+        "Status": "Critically Endangered",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "East Africa"
+    },
+    {
+        "Animal": "Bengal Tiger",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Common Zebra",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "East Africa"
+    },
+    {
+        "Animal": "Giant Sable Antelope",
+        "Biome": "Savannah",
+        "Status": "Critically Endangered",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Southern Africa"
+    },
+    {
+        "Animal": "Spectacled Bear",
+        "Biome": "Temperate Forest",
+        "Status": "Vulnerable",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "South America"
+    },
+    {
+        "Animal": "American Bison",
+        "Biome": "Grassland",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Caribou",
+        "Biome": "Tundra",
+        "Status": "Vulnerable",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Arctic"
+    },
+    {
+        "Animal": "Fennec Fox",
+        "Biome": "Desert",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Crested Gibbon",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Przewalskis Wild Horse",
+        "Biome": "Grassland",
+        "Status": "Critically Endangered",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Central Asia"
+    },
+    {
+        "Animal": "Koala",
+        "Biome": "Temperate Forest",
+        "Status": "Low Risk",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Australia"
+    },
+    {
+        "Animal": "Komodo Dragon",
+        "Biome": "Scrub",
+        "Status": "Vulnerable",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Spanish Lynx",
+        "Biome": "Temperate Forest",
+        "Status": "Critically Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Spain"
+    },
+    {
+        "Animal": "Markhor",
+        "Biome": "Alpine",
+        "Status": "Endangered",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Asia"
+    },
+    {
+        "Animal": "Orangutan",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Scimitar-Horned Oryx",
+        "Biome": "Desert",
+        "Status": "Critically Endangered",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Florida Panther",
+        "Biome": "Wetlands",
+        "Status": "Critically Endangered",
+        "Star Rating": 5,
+        "Cost": "$45,000",
+        "Location": "Florida"
+    },
+    {
+        "Animal": "Javan Rhinoceros",
+        "Biome": "Tropical Rainforest",
+        "Status": "Critically Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Bairds Tapir",
+        "Biome": "Tropical Rainforest",
+        "Status": "Endangered",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Central America"
+    },
+    {
+        "Animal": "Galapagos Giant Tortoise",
+        "Biome": "Scrub",
+        "Status": "Endangered",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "South America"
+    },
+    {
+        "Animal": "African Wild Dog",
+        "Biome": "Savannah",
+        "Status": "Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Southern Africa"
+    },
+    {
+        "Animal": "Gray Wolf",
+        "Biome": "Boreal Forest",
+        "Status": "Low Risk",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Wolverine",
+        "Biome": "Boreal Forest",
+        "Status": "Vulnerable",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Aardvark",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 2.5,
+        "Cost": "$10,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Barbary Ape",
+        "Biome": "Temperate Forest",
+        "Status": "Vulnerable",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Northwest Africa"
+    },
+    {
+        "Animal": "Secretary Bird",
+        "Biome": "Grassland",
+        "Status": "Low Risk",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Africa and Asia"
+    },
+    {
+        "Animal": "Bongo",
+        "Biome": "Tropical Rainforest",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "African Buffalo",
+        "Biome": "Wetlands",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Caracal",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "Africa and Asia"
+    },
+    {
+        "Animal": "Gelada",
+        "Biome": "Alpine",
+        "Status": "Low Risk",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Ethiopia"
+    },
+    {
+        "Animal": "Gerenuk",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Masai Giraffe",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Pygmy Hippopotamus",
+        "Biome": "Tropical Rainforest",
+        "Status": "Critically Endangered",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Striped Hyena",
+        "Biome": "Desert",
+        "Status": "Low Risk",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Mandrill",
+        "Biome": "Tropical Rainforest",
+        "Status": "Vulnerable",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "Central Africa"
+    },
+    {
+        "Animal": "Meerkat",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "South Africa"
+    },
+    {
+        "Animal": "Nile Monitor",
+        "Biome": "Wetlands",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Ratel",
+        "Biome": "Grassland",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Africa and Asia"
+    },
+    {
+        "Animal": "White Rhinoceros",
+        "Biome": "Scrub",
+        "Status": "Low Risk",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "South Africa"
+    },
+    {
+        "Animal": "African Spurred Tortoise",
+        "Biome": "Desert",
+        "Status": "Vulnerable",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Warthog",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Wildebeest",
+        "Biome": "Savannah",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Ethiopian Wolf",
+        "Biome": "Alpine",
+        "Status": "Critically Endangered",
+        "Star Rating": 5,
+        "Cost": "$45,000",
+        "Location": "Ethiopia"
+    },
+    {
+        "Animal": "Carnotaurus",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "South America"
+    },
+    {
+        "Animal": "Styracosaurus",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Triceratops",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Tyrannosaurus rex",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 5,
+        "Cost": "$50,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Beluga",
+        "Biome": "Tundra",
+        "Status": "Vulnerable",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Arctic Ocean"
+    },
+    {
+        "Animal": "Bottlenose Dolphin",
+        "Biome": "Coastal",
+        "Status": "Vulnerable",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "West Indian Manatee",
+        "Biome": "Coastal",
+        "Status": "Vulnerable",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Atlantic Ocean"
+    },
+    {
+        "Animal": "Blue Marlin",
+        "Biome": "Pelagic",
+        "Status": "Low Risk",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Atlantic Ocean"
+    },
+    {
+        "Animal": "Narwhal",
+        "Biome": "Tundra",
+        "Status": "Vulnerable",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Arctic Ocean"
+    },
+    {
+        "Animal": "Sea Otter",
+        "Biome": "Coastal",
+        "Status": "Endangered",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "North Pacific Coasts"
+    },
+    {
+        "Animal": "Rockhopper Penguin",
+        "Biome": "Coastal",
+        "Status": "Vulnerable",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Southern Ocean Islands"
+    },
+    {
+        "Animal": "Manta Ray",
+        "Biome": "Reef",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,250",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "California Sea Lion",
+        "Biome": "Coastal",
+        "Status": "Low Risk",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "East Pacific Coast"
+    },
+    {
+        "Animal": "Goblin Shark",
+        "Biome": "Benthic",
+        "Status": "Low Risk",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "Scalloped Hammerhead",
+        "Biome": "Pelagic",
+        "Status": "Low Risk",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "Blacktip Reef Shark",
+        "Biome": "Reef",
+        "Status": "Low Risk",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Indo-Pacific Oceans"
+    },
+    {
+        "Animal": "Whale Shark",
+        "Biome": "Benthic",
+        "Status": "Vulnerable",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "White Shark",
+        "Biome": "Benthic",
+        "Status": "Vulnerable",
+        "Star Rating": 5,
+        "Cost": "$45,000",
+        "Location": "Coasts Worldwide"
+    },
+    {
+        "Animal": "Leatherback Sea Turtle",
+        "Biome": "Pelagic",
+        "Status": "Critically Endangered",
+        "Star Rating": 2.5,
+        "Cost": "$7,500",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "Green Sea Turtle",
+        "Biome": "Coastal",
+        "Status": "Endangered",
+        "Star Rating": 1,
+        "Cost": "$2,000",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "Pacific Walrus",
+        "Biome": "Tundra",
+        "Status": "Low Risk",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "Arctic Ocean"
+    },
+    {
+        "Animal": "False Killer Whale",
+        "Biome": "Coastal",
+        "Status": "Low Risk",
+        "Star Rating": 4,
+        "Cost": "$20,000",
+        "Location": "Coasts Worldwide"
+    },
+    {
+        "Animal": "Orca",
+        "Biome": "Tundra",
+        "Status": "Low Risk",
+        "Star Rating": 5,
+        "Cost": "$50,000",
+        "Location": "Circumpolar Oceans"
+    },
+    {
+        "Animal": "Short-Finned Pilot Whale",
+        "Biome": "Pelagic",
+        "Status": "Low Risk",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "Global Warm Oceans"
+    },
+    {
+        "Animal": "Ankylosaurus",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 4,
+        "Cost": "$45,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Aurochs",
+        "Biome": "Temperate Forest",
+        "Status": "Extinct",
+        "Star Rating": 1,
+        "Cost": "$5,500",
+        "Location": "Eurasia"
+    },
+    {
+        "Animal": "Short-Faced Bear",
+        "Biome": "Tundra",
+        "Status": "Extinct",
+        "Star Rating": 4,
+        "Cost": "$45,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Elephant Bird",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 2.5,
+        "Cost": "$15,000",
+        "Location": "Madagascar"
+    },
+    {
+        "Animal": "Bluebuck",
+        "Biome": "Grassland",
+        "Status": "Extinct",
+        "Star Rating": 0.5,
+        "Cost": "$3,000",
+        "Location": "Southern Africa"
+    },
+    {
+        "Animal": "Giant Camel",
+        "Biome": "Grassland",
+        "Status": "Extinct",
+        "Star Rating": 1.5,
+        "Cost": "$7,500",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Saber-Toothed Cat",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 4,
+        "Cost": "$45,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Bush-Antlered Deer",
+        "Biome": "Temperate Forest",
+        "Status": "Extinct",
+        "Star Rating": 1.5,
+        "Cost": "$7,500",
+        "Location": "Eurasia"
+    },
+    {
+        "Animal": "Deinonychus",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 2.5,
+        "Cost": "$15,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Deinosuchus",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 4.5,
+        "Cost": "$60,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Dimetrodon",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 3.5,
+        "Cost": "$35,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Diprotodon",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 2,
+        "Cost": "$10,000",
+        "Location": "Australia"
+    },
+    {
+        "Animal": "Dodo",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 0.5,
+        "Cost": "$3,000",
+        "Location": "Mauritius"
+    },
+    {
+        "Animal": "Doedicurus",
+        "Biome": "Scrub",
+        "Status": "Extinct",
+        "Star Rating": 2,
+        "Cost": "$10,000",
+        "Location": "South America"
+    },
+    {
+        "Animal": "Dwarf Sicilian Elephant",
+        "Biome": "Grassland",
+        "Status": "Extinct",
+        "Star Rating": 3,
+        "Cost": "$15,000",
+        "Location": "Mediterranean Islands"
+    },
+    {
+        "Animal": "Gigantopithecus",
+        "Biome": "Tropical Rainforest",
+        "Status": "Extinct",
+        "Star Rating": 4.5,
+        "Cost": "$35,000",
+        "Location": "China"
+    },
+    {
+        "Animal": "Kentrosaurus",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 2,
+        "Cost": "$10,000",
+        "Location": "East Africa"
+    },
+    {
+        "Animal": "Cave Lion",
+        "Biome": "Alpine",
+        "Status": "Extinct",
+        "Star Rating": 3.5,
+        "Cost": "$35,000",
+        "Location": "Europe"
+    },
+    {
+        "Animal": "American Mastodon",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 4.5,
+        "Cost": "$60,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Killer Penguin",
+        "Biome": "Tundra",
+        "Status": "Extinct",
+        "Star Rating": 0,
+        "Cost": "$0",
+        "Location": "Madagascar"
+    },
+    {
+        "Animal": "Protarchaeopteryx",
+        "Biome": "Wetlands",
+        "Status": "Extinct",
+        "Star Rating": 1,
+        "Cost": "$5,500",
+        "Location": "Asia"
+    },
+    {
+        "Animal": "Quagga",
+        "Biome": "Savannah",
+        "Status": "Extinct",
+        "Star Rating": 1.5,
+        "Cost": "$3,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Woolly Rhinoceros",
+        "Biome": "Tundra",
+        "Status": "Extinct",
+        "Star Rating": 3.5,
+        "Cost": "$35,000",
+        "Location": "Eurasia"
+    },
+    {
+        "Animal": "Sivatherium",
+        "Biome": "Savannah",
+        "Status": "Extinct",
+        "Star Rating": 1,
+        "Cost": "$5,500",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Giant Ground Sloth",
+        "Biome": "Scrub",
+        "Status": "Extinct",
+        "Star Rating": 5,
+        "Cost": "$80,000",
+        "Location": "South America"
+    },
+    {
+        "Animal": "Stegosaurus",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 4,
+        "Cost": "$45,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Stokesosaurus",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 1.5,
+        "Cost": "$7,500",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Thylacine",
+        "Biome": "Temperate Forest",
+        "Status": "Extinct",
+        "Star Rating": 3,
+        "Cost": "$20,000",
+        "Location": "Tasmania"
+    },
+    {
+        "Animal": "Utahraptor",
+        "Biome": "Boreal Forest",
+        "Status": "Extinct",
+        "Star Rating": 4.5,
+        "Cost": "$60,000",
+        "Location": "North America"
+    },
+    {
+        "Animal": "Velociraptor",
+        "Biome": "Desert",
+        "Status": "Extinct",
+        "Star Rating": 0.5,
+        "Cost": "$3,000",
+        "Location": "Central Asia"
+    },
+    {
+        "Animal": "Warrah",
+        "Biome": "Grassland",
+        "Status": "Extinct",
+        "Star Rating": 2.5,
+        "Cost": "$15,000",
+        "Location": "Falkland Islands"
+    },
+    {
+        "Animal": "Giant Warthog",
+        "Biome": "Savannah",
+        "Status": "Extinct",
+        "Star Rating": 3.5,
+        "Cost": "$35,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Addax",
+        "Biome": "Desert",
+        "Status": "Critically Endangered",
+        "Star Rating": 2,
+        "Cost": "$5,500",
+        "Location": "North Africa"
+    },
+    {
+        "Animal": "Asiatic Black Bear",
+        "Biome": "Temperate Forest",
+        "Status": "Vulnerable",
+        "Star Rating": 2,
+        "Cost": "$10,000",
+        "Location": "Asia"
+    },
+    {
+        "Animal": "Asian Elephant",
+        "Biome": "Scrub",
+        "Status": "Endangered",
+        "Star Rating": 3.5,
+        "Cost": "$15,000",
+        "Location": "Southeast Asia"
+    },
+    {
+        "Animal": "Black Leopard",
+        "Biome": "Tropical Rainforest",
+        "Status": "Low Risk",
+        "Star Rating": 3,
+        "Cost": "$10,000",
+        "Location": "Africa"
+    },
+    {
+        "Animal": "Musk Ox",
+        "Biome": "Tundra",
+        "Status": "Low Risk",
+        "Star Rating": 0.5,
+        "Cost": "$1,500",
+        "Location": "Arctic"
+    }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="trycontainer" class="trycontainer"></div>
+        <div id="options">
+        </div>
+    </div>
+    <script src="./autocomplete.js"></script>
+    <script src="./ztrdle.js"></script>
+    <script src="./seedrandom.min.js"></script>
+    <script defer>
+        const ztrdle = new Ztrdle(
+            "animals.json",
+            document.getElementById("trycontainer"),
+            document.getElementById("options"),
+            10
+        )
+    </script>
+</body>
+</html>
