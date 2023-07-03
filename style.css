@@ -120,7 +120,7 @@ input[type=submit], .retrybutton {
     background-color: grey;
 }
 
-.box, .goodbox, .badbox, .animalbox {
+.box, .goodbox, .badbox, .expertgoodbox, .animalbox {
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 9pt;
