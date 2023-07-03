@@ -108,6 +108,12 @@ input[type=submit], .retrybutton {
     background-color: firebrick;
 }
 
+.expertgoodbox {
+    width: 100%;
+    height: 100%;
+    background-color: lavender;
+}
+
 .box {
     width: 100%;
     height: 100%;
