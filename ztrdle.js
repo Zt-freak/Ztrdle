@@ -150,8 +150,10 @@ class Ztrdle {
             theBox = this.boxes[this.boxIndex]
             if (guessedAnimal[e.Type] == this.animal[e.Type]) {
                 theBox.className = "goodbox"
-                if ((e.Type == "Star Rating" || e.Type == "Cost") && this.difficulty == "expert")
+
+                if (e.Type != "Star Rating" && e.Type != "Cost" && this.difficulty == "expert")
                     theBox.className = "expertgoodbox"
+
                 this.intentContent += "%F0%9F%9F%A9"
                 e.Guessed = true
             }
@@ -163,7 +165,7 @@ class Ztrdle {
             if (e.Type != "Star Rating" && e.Type != "Cost" && e.Guessed == true && guessedAnimal[e.Type] != this.animal[e.Type] && this.difficulty == "expert")
                 this.turns = 0
 
-            if (this.difficulty == "expert")
+            if (e.Type != "Animal" && this.difficulty == "expert")
                 return;
 
             switch (e.Type) {
