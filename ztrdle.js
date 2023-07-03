@@ -3,7 +3,7 @@ class Ztrdle {
         this.turnsContainer = turnsContainer
         this.optionsContainer = optionsContainer
         this.turns = turns
-        this.hintUsed = false
+        this.hintsUsed = 0
         this.boxIndex = 0
         this.difficulty = "easy"
         this.animalDataColumns = [
@@ -44,11 +44,13 @@ class Ztrdle {
                 if (this.difficulty == undefined ||
                     (this.difficulty != "easy" &&
                     this.difficulty != "normal" &&
-                    this.difficulty != "hard")
+                    this.difficulty != "hard" &&
+                    this.difficulty != "expert"
+                )
 
                 ) {
                     let difficultyRadioButtons = ``
-                    const difficulties = ["easy", "normal", "hard"]
+                    const difficulties = ["easy", "normal", "hard", "expert"]
 
                     difficulties.forEach( dif => {
                         let isChecked = ``
@@ -156,6 +158,12 @@ class Ztrdle {
                 this.intentContent += "%F0%9F%9F%A5"
             }
 
+            if (e.Guessed == true && guessedAnimal[e.Type] != this.animal[e.Type] && this.difficulty == "expert")
+                this.turns = 0
+
+            if (this.difficulty == "expert")
+                return;
+
             switch (e.Type) {
                 case "Animal":
                     theBox.innerText = guessedAnimal[e.Type]
@@ -238,33 +246,37 @@ class Ztrdle {
     }
 
     hint = (e) => {
-        if (this.hintUsed != true) {
-            this.hintUsed = true
-            this.inputField.value = null
+        this.hintsUsed++
+        this.inputField.value = null
 
+        if (
+            (this.difficulty == "easy" && this.hintsUsed >= 3) ||
+            (this.difficulty == "normal" && this.hintsUsed >= 2) ||
+            (this.difficulty == "hard" && this.hintsUsed >= 1) ||
+            (this.difficulty == "expert" && this.hintsUsed >= 1)
+        )
             e.target.parentNode.removeChild(e.target)
 
-            if (!this.animalDataColumns[5].Guessed && this.turns <= 6 && this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal).length > 0) {
-                this.submit(this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else if (!this.animalDataColumns[1].Guessed && this.turns <= 6) {
-                this.submit(this.animals.filter( a => a.Biome == this.animal.Biome && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else if (!this.animalDataColumns[4].Guessed) {
-                this.submit(this.animals.filter( a => a.Cost == this.animal.Cost && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else if (!this.animalDataColumns[3].Guessed) {
-                this.submit(this.animals.filter( a => a.Stars == this.animal.Stars && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else if (!this.animalDataColumns[2].Guessed) {
-                this.submit(this.animals.filter( a => a.Status == this.animal.Status && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else if (!this.animalDataColumns[5].Guessed && this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal).length > 0) {
-                this.submit(this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal)[0].Animal)
-            }
-            else {
-                this.submit(this.animals.filter( a => a.Biome == this.animal.Biome && a.Animal != this.animal.Animal)[0].Animal)
-            }
+        if (!this.animalDataColumns[5].Guessed && this.turns <= 6 && this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal).length > 0) {
+            this.submit(this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else if (!this.animalDataColumns[1].Guessed && this.turns <= 6) {
+            this.submit(this.animals.filter( a => a.Biome == this.animal.Biome && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else if (!this.animalDataColumns[4].Guessed) {
+            this.submit(this.animals.filter( a => a.Cost == this.animal.Cost && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else if (!this.animalDataColumns[3].Guessed) {
+            this.submit(this.animals.filter( a => a.Stars == this.animal.Stars && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else if (!this.animalDataColumns[2].Guessed) {
+            this.submit(this.animals.filter( a => a.Status == this.animal.Status && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else if (!this.animalDataColumns[5].Guessed && this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal).length > 0) {
+            this.submit(this.animals.filter( a => a.Location == this.animal.Location && a.Animal != this.animal.Animal)[0].Animal)
+        }
+        else {
+            this.submit(this.animals.filter( a => a.Biome == this.animal.Biome && a.Animal != this.animal.Animal)[0].Animal)
         }
     }
 }
