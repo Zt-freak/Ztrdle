@@ -112,8 +112,10 @@ class Ztrdle {
                     <input id="myInput" type="text" placeholder="Enter animal name" autocomplete="off">
                 </div>
                 <button class="retrybutton" id="submit">Submit</button>
-                <button class="retrybutton" id="hint">Hint (-1 turn)</button>
                 `
+
+                if (this.difficulty != "expert")
+                    this.optionsContainer.innerHTML += `<button class="retrybutton" id="hint">Hint (-1 turn)</button>`
 
                 this.inputField = document.getElementById("myInput")
                 this.submitButton = document.getElementById("submit")
@@ -148,10 +150,14 @@ class Ztrdle {
         let theBox
         this.animalDataColumns.forEach(e => {
             theBox = this.boxes[this.boxIndex]
-            if (guessedAnimal[e.Type] == this.animal[e.Type]) {
+            if ((e.Type != "Star Rating" || e.Type != "Cost") && this.difficulty == "expert") {
+                theBox.className = "disabledbox"
+                this.intentContent += "%E2%AC%9B"
+            }
+            else if (guessedAnimal[e.Type] == this.animal[e.Type]) {
                 theBox.className = "goodbox"
 
-                if (e.Type != "Star Rating" && e.Type != "Cost" && this.difficulty == "expert")
+                if (e.Type != "Animal" && e.Type != "Star Rating" && e.Type != "Cost" && this.difficulty == "expert")
                     theBox.className = "expertgoodbox"
 
                 this.intentContent += "%F0%9F%9F%A9"

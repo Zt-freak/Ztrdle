@@ -110,6 +110,13 @@ input[type=submit], .retrybutton {
     box-shadow: 0 -3px inset rgba(0, 0, 0, 0.2);
 }
 
+.disabledbox {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+    box-shadow: 0 -3px inset rgba(0, 0, 0, 0.2);
+}
+
 .expertgoodbox {
     width: 100%;
     height: 100%;
