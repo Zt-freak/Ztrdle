@@ -1,3 +1,4 @@
+const DIFFICULTIES = ["easy", "normal", "hard", "expert"]
 class Ztrdle {
     constructor (animalDataFileName, turnsContainer, optionsContainer, turns = 8) {
         this.turnsContainer = turnsContainer
@@ -50,9 +51,8 @@ class Ztrdle {
 
                 ) {
                     let difficultyRadioButtons = ``
-                    const difficulties = ["easy", "normal", "hard", "expert"]
 
-                    difficulties.forEach( dif => {
+                    DIFFICULTIES.forEach( dif => {
                         let isChecked = ``
 
                         difficultyRadioButtons += `
@@ -221,9 +221,8 @@ class Ztrdle {
             }
 
             let difficultyRadioButtons = ``
-            const difficulties = ["easy", "normal", "hard"]
 
-            difficulties.forEach( dif => {
+            DIFFICULTIES.forEach( dif => {
                 let isChecked = ``
                 if (this.difficulty == dif)
                     isChecked = `checked="checked"`
