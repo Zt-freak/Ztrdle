@@ -112,14 +112,17 @@ class Ztrdle {
                     <input id="myInput" type="text" placeholder="Enter animal name" autocomplete="off">
                 </div>
                 <button class="retrybutton" id="submit">Submit</button>
+                <button class="retrybutton" id="hint">Hint (-1 turn)</button>
                 `
 
                 if (this.difficulty != "expert")
-                    this.optionsContainer.innerHTML += `<button class="retrybutton" id="hint">Hint (-1 turn)</button>`
 
                 this.inputField = document.getElementById("myInput")
                 this.submitButton = document.getElementById("submit")
                 this.hintButton = document.getElementById("hint")
+
+                if (this.difficulty != "expert")
+                    this.hintButton.style.display = "hidden"
 
                 this.submitButton.addEventListener("click", e => {
                     e.preventDefault()
