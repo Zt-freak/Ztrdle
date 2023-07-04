@@ -150,7 +150,7 @@ class Ztrdle {
         let theBox
         this.animalDataColumns.forEach(e => {
             theBox = this.boxes[this.boxIndex]
-            if ((e.Type != "Star Rating" || e.Type != "Cost") && this.difficulty == "expert") {
+            if ((e.Type == "Star Rating" || e.Type == "Cost") && this.difficulty == "expert") {
                 theBox.className = "disabledbox"
                 this.intentContent += "%E2%AC%9B"
             }
