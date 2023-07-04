@@ -122,7 +122,7 @@ class Ztrdle {
                 this.hintButton = document.getElementById("hint")
 
                 if (this.difficulty != "expert")
-                    this.hintButton.style.display = "hidden"
+                    this.hintButton.style.display = "none"
 
                 this.submitButton.addEventListener("click", e => {
                     e.preventDefault()
