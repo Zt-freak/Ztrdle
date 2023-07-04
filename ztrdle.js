@@ -115,7 +115,8 @@ class Ztrdle {
                 <button class="retrybutton" id="hint">Hint (-1 turn)</button>
                 `
 
-                if (this.difficulty != "expert")
+                if (this.difficulty == "expert")
+                    this.hintButton.style.display = "none"
 
                 this.inputField = document.getElementById("myInput")
                 this.submitButton = document.getElementById("submit")
@@ -132,9 +133,6 @@ class Ztrdle {
                 })
 
                 autocomplete(this.inputField, this.animals.map(a => a.Animal))
-
-                if (this.difficulty == "expert")
-                    this.hintButton.style.display = "none"
             })
     }
 
