@@ -121,9 +121,6 @@ class Ztrdle {
                 this.submitButton = document.getElementById("submit")
                 this.hintButton = document.getElementById("hint")
 
-                if (this.difficulty == "expert")
-                    this.hintButton.style.display = "none"
-
                 this.submitButton.addEventListener("click", e => {
                     e.preventDefault()
                     this.submit(this.inputField.value)
@@ -135,6 +132,9 @@ class Ztrdle {
                 })
 
                 autocomplete(this.inputField, this.animals.map(a => a.Animal))
+
+                if (this.difficulty == "expert")
+                    this.hintButton.style.display = "none"
             })
     }
 
